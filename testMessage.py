@@ -39,5 +39,5 @@ def post_tweet(message: str):
         return None
 
 if __name__ == "__main__":
-    tweet_text = "Second test tweet from the VyxaFoundation Twitter-Agent repository! Stay tuned for more updates."
+    tweet_text = "Test tweet from the Vyxa Foundation Twitter-Agent repository! Stay tuned for more updates."
     post_tweet(tweet_text)
