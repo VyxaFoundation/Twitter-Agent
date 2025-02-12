@@ -4,7 +4,7 @@ from requests_oauthlib import OAuth1
 from dotenv import load_dotenv  # ✅ dotenv added
 
 # Load environment variables from .env file
-load_dotenv()  # ✅ This line loads the variables from the .env file
+load_dotenv() 
 
 # Load Twitter API credentials from environment variables (More secure)
 CONSUMER_KEY = os.getenv("TWITTER_CONSUMER_KEY")
